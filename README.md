@@ -1,7 +1,3 @@
-<div align="center">
-
-<img src="docs/icon.png" width="120" alt="AdSkip icon" />
-
 # AdSkip
 
 **可配置 DNS 的 Android 免 Root 去广告工具**
