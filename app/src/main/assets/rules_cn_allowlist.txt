@@ -1,0 +1,50 @@
+# ============================================================
+# AdSkip 国内 App 核心白名单
+# 仅在某个 App 无法登录/支付/加载时，把对应域名加到「白名单」
+# 注意：不要添加 qq.com、taobao.com 这类大父域，会放行其广告子域
+# ============================================================
+
+# 微信 / QQ
+api.weixin.qq.com
+login.weixin.qq.com
+long.weixin.qq.com
+open.weixin.qq.com
+pay.weixin.qq.com
+wx.tenpay.com
+graph.qq.com
+ptlogin2.qq.com
+
+# 支付
+api.alipay.com
+openapi.alipay.com
+mobilegw.alipay.com
+
+# 电商
+api.taobao.com
+h5api.m.taobao.com
+login.taobao.com
+api.tmall.com
+api.m.jd.com
+api.pinduoduo.com
+
+# 本地生活
+api.meituan.com
+api.dianping.com
+
+# 内容 / 视频
+api.bilibili.com
+api.zhihu.com
+edith.xiaohongshu.com
+api.weibo.cn
+api.weibo.com
+api.iqiyi.com
+api.youku.com
+pcweb.api.mgtv.com
+aweme.snssdk.com
+api.amemv.com
+api.gifshow.com
+
+# 推送（如果发现通知收不到，再启用）
+api.jpush.cn
+api.getui.com
+upush.umeng.com

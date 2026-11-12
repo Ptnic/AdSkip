@@ -1,0 +1,169 @@
+# ============================================================
+# AdSkip 国内 App 广告规则包 · 推荐版
+# 适用：第三方广告 SDK、广告交易平台、已确认的广告子域
+# 用法：App → 自定义规则 → 额外拦截 → 粘贴/载入 → 保存 → 重启防护
+# 说明：一行一个域名，父域名会同时匹配所有子域名
+# ============================================================
+
+# 穿山甲 / Pangle / 字节跳动
+pangle.cn
+pangolin-sdk-toutiao.com
+pglstatp-toutiao.com
+
+# 腾讯优量汇 / 广点通
+gdt.qq.com
+
+# 百度百青藤
+cpro.baidu.com
+cpro2.baidu.com
+cpro.baidustatic.com
+mobads.baidu.com
+mobads-logs.baidu.com
+union.baidu.com
+pos.baidu.com
+cbjs.baidu.com
+
+# 阿里妈妈 / Tanx
+alimama.com
+alimama.cn
+tanx.com
+
+# 快手联盟
+adkwai.com
+adukwai.com
+
+# 国际广告 SDK
+adcolony.com
+applovin.com
+chartboost.com
+inmobi.com
+ironsrc.com
+mintegral.com
+mopub.com
+smaato.net
+startapp.com
+supersonicads.com
+tapjoy.com
+unityads.unity3d.com
+vungle.com
+pubmatic.com
+criteo.com
+taboola.com
+outbrain.com
+amazon-adsystem.com
+
+# 微信 / QQ 广告位
+ad.weixin.qq.com
+ad.qq.com
+ad.browser.qq.com
+ad.qun.qq.com
+
+# 字节 / 快手信息流
+ad.toutiao.com
+ad.partner.gifshow.com
+gdfp.gifshow.com
+promotion-partner.kuaishou.com
+adtrack.e.kuaishou.com
+open.kuaishouzt.com
+
+# 爱奇艺 / 优酷
+ad.m.iqiyi.com
+ad.api.mobile.youku.com
+ad.api.3g.youku.com
+yk-ssp.ad.youku.com
+ad.mobile.youku.com
+
+# 美团 / 拼多多 / 微博
+impdsp.meituan.com
+adim.pinduoduo.com
+t-dsp.pinduoduo.com
+dspsdk.pinduoduo.com
+adstrategy.biz.weibo.com
+adimg.uve.weibo.com
+tui.weibo.com
+s.alitui.weibo.com
+alitui.weibo.com
+
+# 58 / 汽车之家 / 墨迹
+adshow.58.com
+adproxy.autohome.com.cn
+ad.api.moji.com
+
+# 搜狐 / 新浪
+ad.sohu.com
+ads.sohu.com
+ad.sina.com.cn
+ad2.sina.com.cn
+ad3.sina.com.cn
+ad4.sina.com.cn
+ad.us.sinaimg.cn
+
+# 携程
+ma-adx.ctrip.com
+
+# 网易 / 腾讯音乐
+ad.bn.netease.com
+advert.lx.netease.com
+ad.tencentmusic.com
+
+# 百度 / 360
+ad.player.baidu.com
+eduad.baidu.com
+ad.iot.360.cn
+ad.jia.360.cn
+ad.life.360.cn
+ad.gamebox.360.cn
+ad.dev.360.cn
+iad.e.360.cn
+huid.ad.360.cn
+adapi.shouji.360.cn
+
+# 广告 SDK 扩展
+admob.com
+googlesyndication.com
+googleadservices.com
+adservice.google.com
+doubleclick.net
+mobvista.com
+liftoff.io
+moloco.com
+digitalturbine.com
+fyber.com
+adikteev.com
+adjoe.io
+kayzen.io
+loopme.me
+verve.com
+gumgum.com
+sharethrough.com
+triplelift.com
+yieldmo.com
+33across.com
+casalemedia.com
+bidswitch.net
+improvedigital.com
+districtm.io
+mobfox.com
+adform.net
+appnexus.com
+adnxs.com
+rubiconproject.com
+openx.net
+smartadserver.com
+teads.tv
+spotx.tv
+msads.net
+
+# 其他已验证广告域
+aqyad.com
+adwo.com
+amoad.com
+appads.com
+adsage.com
+adx.36kr.com
+c.adx.2345.com
+ads.music.126.net
+ad.12306.cn
+m1.ad.10010.com
+smartad.10010.com
+ad.3.cn

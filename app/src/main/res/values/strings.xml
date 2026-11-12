@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AdSkip</string>
+    <string name="app_tagline">DNS 级去广告 · 免 Root</string>
+    <string name="badge_no_root">免 ROOT</string>
+
+    <string name="section_status">防护状态</string>
+    <string name="status_on">防护运行中</string>
+    <string name="status_off">防护未开启</string>
+    <string name="status_starting">正在启动…</string>
+    <string name="status_badge_on">ON</string>
+    <string name="status_badge_off">OFF</string>
+    <string name="status_detail_off">点击下方按钮，授权本地 VPN 后即可接管 DNS 查询。</string>
+    <string name="status_detail_on">%1$s · %2$s</string>
+    <string name="status_detail_starting">正在建立本地 DNS 通道，请稍候…</string>
+    <string name="status_detail_error">启动失败：%1$s</string>
+    <string name="stat_queries">DNS 查询</string>
+    <string name="stat_blocked">已拦截</string>
+    <string name="stat_rules">规则数</string>
+    <string name="last_blocked_none">最近拦截：暂无</string>
+    <string name="last_blocked">最近拦截：%1$s</string>
+
+    <string name="section_dns">DNS 上游</string>
+    <string name="dns_mode">解析方式</string>
+    <string name="mode_udp">UDP</string>
+    <string name="mode_doh">DoH</string>
+    <string name="mode_dot">DoT</string>
+    <string name="dns_preset">常用服务器</string>
+    <string name="dns_address">服务器地址</string>
+    <string name="dns_hint_udp">格式：IP:端口，例如 223.5.5.5:53。仅接受 IP 地址。</string>
+    <string name="dns_hint_doh">格式：https://域名/dns-query，例如 https://dns.alidns.com/dns-query。</string>
+    <string name="dns_hint_dot">格式：域名:端口，例如 dns.cloudflare.com:853。</string>
+    <string name="config_dirty">配置已修改，重启防护后生效</string>
+    <string name="preset_custom">自定义</string>
+
+    <string name="section_filter">过滤</string>
+    <string name="block_ads">拦截广告与追踪域名</string>
+    <string name="block_ads_desc">命中本地规则时返回 0.0.0.0，不发起真实解析</string>
+    <string name="boot_start">开机自动启动</string>
+    <string name="boot_start_desc">重启后自动恢复防护（需系统允许）</string>
+    <string name="custom_rules">自定义规则</string>
+    <string name="custom_rules_desc">追加拦截域名或白名单</string>
+    <string name="manage">管理 ›</string>
+
+    <string name="action_start">启动防护</string>
+    <string name="action_stop">停止防护</string>
+    <string name="action_restart">重启防护</string>
+    <string name="action_starting">正在启动…</string>
+
+    <string name="toast_permission_denied">未授予 VPN 权限，无法启动</string>
+    <string name="toast_invalid_dns">DNS 地址格式不正确</string>
+    <string name="toast_started">防护已启动</string>
+    <string name="toast_stopped">防护已停止</string>
+    <string name="toast_saved">已保存，重启防护后生效</string>
+    <string name="toast_rule_saved">规则已保存</string>
+
+    <string name="rules_title">自定义规则</string>
+    <string name="rules_desc">每行一个域名，支持 example.com 及其所有子域名。以 # 或 ! 开头的行会被忽略。规则立即写入本地，重启防护后生效。</string>
+    <string name="rules_block_label">额外拦截</string>
+    <string name="rules_block_hint">例如：ads.example.com\nmetrics.example.org</string>
+    <string name="rules_allow_label">白名单（优先于拦截）</string>
+    <string name="rules_allow_hint">例如：api.example.com\n更新域名或支付域名建议加入白名单</string>
+    <string name="rules_packs_title">国内广告规则包</string>
+    <string name="rules_packs_desc">按需载入，载入后仍可编辑。建议先载入推荐版；确认常用 App 正常后，再追加激进版。</string>
+    <string name="rules_load_recommended">载入推荐版（广告 SDK / 广告位）</string>
+    <string name="rules_load_aggressive">追加激进版（含统计 / 推送相关）</string>
+    <string name="rules_load_allowlist">载入核心白名单</string>
+    <string name="rules_pack_loaded">已追加 %1$d 条规则，记得保存并重启防护</string>
+    <string name="rules_pack_none">没有新增规则（可能已经载入过）</string>
+    <string name="rules_pack_failed">规则包读取失败</string>
+    <string name="rules_import_block">从文件导入拦截规则</string>
+    <string name="rules_import_allow">从文件导入白名单</string>
+    <string name="rules_import_ok">已导入 %1$d 条规则，记得保存并重启防护</string>
+    <string name="rules_import_empty">文件里没有可用的新规则</string>
+    <string name="rules_import_failed">读取文件失败</string>
+    <string name="rules_import_too_large">文件超过 4 MB，无法导入</string>
+    <string name="rules_save">保存规则</string>
+    <string name="rules_back">返回</string>
+    <string name="rules_count">当前自定义拦截 %1$d 条 · 白名单 %2$d 条</string>
+
+    <string name="notif_channel">DNS 防护状态</string>
+    <string name="notif_channel_desc">显示 AdSkip 的运行状态和拦截统计</string>
+    <string name="notif_title">AdSkip 正在保护 DNS</string>
+    <string name="notif_text">已拦截 %1$d 个广告请求</string>
+    <string name="notif_text_starting">正在建立本地 DNS 通道…</string>
+    <string name="notif_stop">停止</string>
+    <string name="notif_error">启动失败</string>
+
+    <string name="section_skip">开屏广告跳过</string>
+    <string name="skip_title">自动跳过 / 关闭广告</string>
+    <string name="skip_desc">所有 App 保守识别：启动时只点「跳过 / 关闭广告」，推广卡片需有广告标记；不会乱点普通关闭弹窗</string>
+    <string name="accessibility_label">AdSkip 广告自动跳过</string>
+    <string name="accessibility_description">识别各 App 的启动广告、推广卡片，查找并点击「跳过 / 关闭广告 / 不感兴趣 / 我不想看」等控件。只读取当前窗口控件文字，用于查找广告按钮，不保存、不上传。</string>
+    <string name="accessibility_status_off">自动跳过已关闭</string>
+    <string name="accessibility_status_on">无障碍已开启，启动广告会自动尝试跳过</string>
+    <string name="accessibility_status_pending">待授权：请开启系统无障碍权限</string>
+    <string name="accessibility_open">去设置 ›</string>
+    <string name="accessibility_open_desc">在系统「无障碍 / 已安装的应用」中找到 AdSkip 并开启</string>
+    <string name="accessibility_disclosure">默认只在 App 启动后 5 秒内点明确的「跳过 / 关闭广告」，不会扫描文件管理器等界面。开启「持续识别广告卡片」后才会处理刷信息流时的广告，可能误点。</string>
+    <string name="skip_continuous_title">持续识别广告卡片</string>
+    <string name="skip_continuous_desc">默认关闭。开启后会扫描 App 内的广告卡片/菜单，可能误点；文件管理器等非广告界面不建议开启</string>
+
+    <string name="logs_title">拦截记录</string>
+    <string name="logs_desc">最近 300 条 DNS 查询，显示来源 App、时间和拦截/放行结果。放行记录可用于排查 App 的正常 API。</string>
+    <string name="logs_show_allowed">显示放行记录</string>
+    <string name="logs_clear">清空</string>
+    <string name="logs_summary">拦截 %1$d 条 · 放行 %2$d 条</string>
+    <string name="logs_empty">暂无记录。先启动防护，再打开目标 App 触发 DNS 查询。</string>
+    <string name="logs_empty_blocked">暂无拦截记录。可以打开「显示放行记录」查看全部 DNS 查询。</string>
+    <string name="logs_cleared">记录已清空</string>
+    <string name="log_blocked">拦截</string>
+    <string name="log_allowed">放行</string>
+    <string name="log_action_blocked">拦截了 %1$s</string>
+    <string name="log_action_allowed">放行了 %1$s</string>
+    <string name="logs_open">查看 ›</string>
+    <string name="logs_open_desc">查看最近 300 条 DNS 查询与拦截记录</string>
+
+    <string name="error_not_prepared">VPN 权限未授予</string>
+    <string name="error_establish">无法建立本地 VPN 接口</string>
+    <string name="error_no_config">DNS 配置为空</string>
+</resources>

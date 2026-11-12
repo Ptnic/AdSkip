@@ -1,3 +1,7 @@
+<div align="center">
+
+<img src="docs/icon.png" width="120" alt="AdSkip icon" />
+
 # AdSkip
 
 **可配置 DNS 的 Android 免 Root 去广告工具**
@@ -9,7 +13,7 @@
 
 本地 `VpnService` 只接管 DNS · UDP / DoH / DoT 上游 · 国内广告规则包 · 可选无障碍跳过开屏广告
 
-[下载 APK](https://github.com/Ptnic/AdSkip/releases/download/%E7%89%88%E6%9C%AC/AdSkip-1.4.2-release.apk)) · [源码包](https://github.com/Ptnic/AdSkip/archive/refs/tags/%E7%89%88%E6%9C%AC.zip) · [技术说明](PROJECT_INFO.md)
+[下载 APK](dist/AdSkip-1.4.2-release.apk) · [源码包](dist/AdSkip-1.4.2-source.zip) · [技术说明](PROJECT_INFO.md)
 
 </div>
 

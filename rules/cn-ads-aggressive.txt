@@ -1,0 +1,61 @@
+# ============================================================
+# AdSkip 国内 App 广告规则包 · 激进版
+# 先启用「推荐版」，确认正常后再追加本文件。
+# 包含统计、归因、推送相关域名，可能影响消息推送/数据统计。
+# ============================================================
+
+# 统计分析 / 广告归因
+umeng.com
+umengcloud.com
+cnzz.com
+cnzz.net
+talkingdata.com
+talkingdata.net
+growingio.com
+sensorsdata.cn
+appsflyer.com
+adjust.com
+branch.io
+kochava.com
+singular.net
+admaster.com.cn
+miaozhen.com
+
+# 腾讯 / 百度统计
+e.qq.com
+pingjs.qq.com
+ta.qq.com
+
+# 厂商广告
+ad.mi.com
+ad.vivo.com.cn
+
+# 视频 / 音乐 / 资讯
+adgeo.163.com
+adimg.163.com
+iad.g.163.com
+ifengad.3g.ifeng.com
+api.newad.ifeng.com
+log.mgtv.com
+api.union.vip.com
+click.union.vip.com
+ads.95516.com
+
+# 美团 / 快手 / 微博 / 知乎统计
+report.meituan.com
+dreport.meituan.net
+wlog.kuaishou.com
+event.zhihu.com
+zhihu-web-analytics.zhihu.com
+
+# 补充广告位（均来自公开中文过滤列表，已去掉猜测域名）
+adx.adwangmai.com
+sdk.mobads.adwangmai.com
+adx.agrantsem.com
+n.amoad.com
+api.aqyad.com
+sdk.aqyad.com
+trace.aqyad.com
+a-ad.adwo.com
+ad.adwo.com
+
