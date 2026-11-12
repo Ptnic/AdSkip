@@ -1,0 +1,5 @@
+# Copy this file to local.properties when building without ANDROID_HOME.
+# Windows example (backslashes must be escaped):
+# sdk.dir=C\:\\Users\\you\\AppData\\Local\\Android\\Sdk
+# macOS/Linux example:
+# sdk.dir=/Users/you/Library/Android/sdk
